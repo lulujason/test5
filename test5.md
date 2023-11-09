@@ -24,4 +24,7 @@ num = tibble(
 
 ij = ggplot(num,aes(1:3,5:7))+geom_point()
 ggsave('ij.pdf',ij,width=8,height = 5)
+ij
 ```
+
+![](test5_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
