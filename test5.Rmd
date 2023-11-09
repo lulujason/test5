@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+num = tibble(
+  1:3,
+  5:7
+)
+
+ij = ggplot(num,aes(1:3,5:7))+geom_point()
+ggsave('ij.pdf',ij,width=8,height = 5)
+```
+
